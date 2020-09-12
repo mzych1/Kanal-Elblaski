@@ -1,0 +1,71 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (gl_05.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Boat.cpp
+  Camera.cpp
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\Camera.h(40,2): warning C4091: 'static ': ignored on left of 'Camera' when no variable is declared
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\Camera.cpp(73,26): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\Camera.cpp(92,26): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\Camera.cpp(119,26): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\Camera.cpp(138,26): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+  Cube.cpp
+  Grass.cpp
+  main.cpp
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\Camera.h(40,2): warning C4091: 'static ': ignored on left of 'Camera' when no variable is declared
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\main.cpp(135,18): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\main.cpp(146,18): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+  Raft.cpp
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\Raft.cpp(5,1): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  RailTrack.cpp
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\RailTrack.cpp(13,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\RailTrack.cpp(15,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\RailTrack.cpp(17,20): warning C4018: '<': signed/unsigned mismatch
+  shprogram.cpp
+  Skybox.cpp
+  Texture.cpp
+  water.cpp
+  Wheel.cpp
+C:\Users\HP\Desktop\GKOM-rotation\gl_05\Wheel.cpp(9,47): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  Generating Code...
+  Generating code
+  Finished generating code
+LINK : warning LNK4286: symbol '___glewBindBuffer' defined in 'glew32s.lib(glew.obj)' is imported by 'Cube.obj'
+LINK : warning LNK4286: symbol '___glewBindBuffer' defined in 'glew32s.lib(glew.obj)' is imported by 'Raft.obj'
+LINK : warning LNK4286: symbol '___glewBindBuffer' defined in 'glew32s.lib(glew.obj)' is imported by 'Skybox.obj'
+LINK : warning LNK4286: symbol '___glewBufferData' defined in 'glew32s.lib(glew.obj)' is imported by 'Cube.obj'
+LINK : warning LNK4286: symbol '___glewBufferData' defined in 'glew32s.lib(glew.obj)' is imported by 'Raft.obj'
+LINK : warning LNK4286: symbol '___glewBufferData' defined in 'glew32s.lib(glew.obj)' is imported by 'Skybox.obj'
+LINK : warning LNK4286: symbol '___glewGenBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'Cube.obj'
+LINK : warning LNK4286: symbol '___glewGenBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'Raft.obj'
+LINK : warning LNK4286: symbol '___glewGenBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'Skybox.obj'
+LINK : warning LNK4286: symbol '___glewEnableVertexAttribArray' defined in 'glew32s.lib(glew.obj)' is imported by 'Cube.obj'
+LINK : warning LNK4286: symbol '___glewEnableVertexAttribArray' defined in 'glew32s.lib(glew.obj)' is imported by 'Raft.obj'
+LINK : warning LNK4286: symbol '___glewEnableVertexAttribArray' defined in 'glew32s.lib(glew.obj)' is imported by 'Skybox.obj'
+LINK : warning LNK4286: symbol '___glewGetUniformLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'Wheel.obj'
+LINK : warning LNK4286: symbol '___glewGetUniformLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'Cube.obj'
+LINK : warning LNK4286: symbol '___glewGetUniformLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'Raft.obj'
+LINK : warning LNK4286: symbol '___glewGetUniformLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'RailTrack.obj'
+LINK : warning LNK4286: symbol '___glewGetUniformLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'Skybox.obj'
+LINK : warning LNK4286: symbol '___glewUniformMatrix4fv' defined in 'glew32s.lib(glew.obj)' is imported by 'Wheel.obj'
+LINK : warning LNK4286: symbol '___glewUniformMatrix4fv' defined in 'glew32s.lib(glew.obj)' is imported by 'Cube.obj'
+LINK : warning LNK4286: symbol '___glewUniformMatrix4fv' defined in 'glew32s.lib(glew.obj)' is imported by 'Raft.obj'
+LINK : warning LNK4286: symbol '___glewUniformMatrix4fv' defined in 'glew32s.lib(glew.obj)' is imported by 'RailTrack.obj'
+LINK : warning LNK4286: symbol '___glewUniformMatrix4fv' defined in 'glew32s.lib(glew.obj)' is imported by 'Skybox.obj'
+LINK : warning LNK4286: symbol '___glewVertexAttribPointer' defined in 'glew32s.lib(glew.obj)' is imported by 'Cube.obj'
+LINK : warning LNK4286: symbol '___glewVertexAttribPointer' defined in 'glew32s.lib(glew.obj)' is imported by 'Raft.obj'
+LINK : warning LNK4286: symbol '___glewVertexAttribPointer' defined in 'glew32s.lib(glew.obj)' is imported by 'Skybox.obj'
+LINK : warning LNK4286: symbol '___glewBindVertexArray' defined in 'glew32s.lib(glew.obj)' is imported by 'Cube.obj'
+LINK : warning LNK4286: symbol '___glewBindVertexArray' defined in 'glew32s.lib(glew.obj)' is imported by 'Raft.obj'
+LINK : warning LNK4286: symbol '___glewBindVertexArray' defined in 'glew32s.lib(glew.obj)' is imported by 'Skybox.obj'
+LINK : warning LNK4286: symbol '___glewGenVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'Cube.obj'
+LINK : warning LNK4286: symbol '___glewGenVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'Raft.obj'
+LINK : warning LNK4286: symbol '___glewGenVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'Skybox.obj'
+LINK : warning LNK4286: symbol '___glewActiveTexture' defined in 'glew32s.lib(glew.obj)' is imported by 'Raft.obj'
+LINK : warning LNK4286: symbol '___glewActiveTexture' defined in 'glew32s.lib(glew.obj)' is imported by 'Skybox.obj'
+LINK : warning LNK4286: symbol '___glewActiveTexture' defined in 'glew32s.lib(glew.obj)' is imported by 'Texture.obj'
+LINK : warning LNK4286: symbol '___glewUniform1i' defined in 'glew32s.lib(glew.obj)' is imported by 'Raft.obj'
+LINK : warning LNK4286: symbol '___glewUniform1i' defined in 'glew32s.lib(glew.obj)' is imported by 'Skybox.obj'
+LINK : warning LNK4286: symbol '___glewUseProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'Raft.obj'
+LINK : warning LNK4286: symbol '___glewUseProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'RailTrack.obj'
+LINK : warning LNK4286: symbol '___glewUseProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'Skybox.obj'
+LINK : warning LNK4286: symbol '___glewUseProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'Wheel.obj'
+LINK : warning LNK4286: symbol '___glewGenerateMipmap' defined in 'glew32s.lib(glew.obj)' is imported by 'Texture.obj'
+  gl_05.vcxproj -> C:\Users\HP\Desktop\GKOM-rotation\Debug\kanal_elblaski.exe
